@@ -43,3 +43,8 @@
         </a>
       </header>
      ```
+5. Create a components folder
+6. Make the following files
+   * Todo.tsx
+   * TodoList.tsx
+   * AddTodoForm.tsx
