@@ -1,0 +1,10 @@
+.todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.checkbox {
+  /* goes clockwise: top right bottom left */
+  margin: auto 0 auto 0;
+}
