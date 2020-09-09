@@ -106,3 +106,4 @@
 14. Center list
 15. Add delete button
 16. Use state for the Todo list
+17. Add conditional styling for todo title

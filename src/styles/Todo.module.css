@@ -22,3 +22,7 @@
 .btn:hover {
   background: red;
 }
+
+.completed {
+  text-decoration: line-through;
+}
