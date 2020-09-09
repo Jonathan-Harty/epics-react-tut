@@ -99,3 +99,5 @@
       },
     ];
     ```
+
+11. Add TodoList to App.tsx and pass it the todos
