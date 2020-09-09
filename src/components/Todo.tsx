@@ -15,6 +15,7 @@ export const Todo = (props: ITodoProps) => {
         defaultChecked={props.todo.isCompleted}
       />
       <h2>{props.todo.title}</h2>
+      <button className={styles.btn}>x</button>
     </div>
   );
 };
