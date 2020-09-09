@@ -12,8 +12,8 @@ export const TodoList = (props: ITodoList) => {
   return (
     <ul className={styles.todo_list}>
       {props.todos.map((todo) => (
-        <li>
-          <Todo key={todo.id} todo={todo} updateTodos={props.updateTodos} />
+        <li key={todo.id}>
+          <Todo todo={todo} updateTodos={props.updateTodos} />
         </li>
       ))}
     </ul>
