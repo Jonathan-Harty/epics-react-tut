@@ -13,9 +13,9 @@
    - serviceWorker.ts
 3. Go into index.tsx and remove the following
    ```typescript
-     import './index.css';
-     import './index.css
-     import * as serviceWorker from './serviceWorker';
+   import "./index.css";
+   import "./index.css";
+   import * as serviceWorker from "./serviceWorker";
    ```
    ```typescript
    // If you want your app to work offline and load faster, you can change
