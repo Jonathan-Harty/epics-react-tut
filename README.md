@@ -12,21 +12,21 @@
    - setupTest.ts
    - serviceWorker.ts
 3. Go into index.tsx and remove the following
-   ```javascript
+   ```typescript
      import './index.css';
      import './index.css
      import * as serviceWorker from './serviceWorker';
    ```
-   ```javascript
+   ```typescript
    // If you want your app to work offline and load faster, you can change
    // unregister() to register() below. Note this comes with some pitfalls.
    // Learn more about service workers: https://bit.ly/CRA-PWA
    serviceWorker.unregister();
    ```
 4. Got into App.tsx and remove the following
-   ```Javascript
-      import logo from './logo.svg';
-      import './App.css';
+   ```typescript
+   import logo from "./logo.svg";
+   import "./App.css";
    ```
    ```html
    <header className="App-header">
@@ -49,12 +49,22 @@
    - AddTodoForm.tsx
 7. Initialize files above with format below
 
-   ```javascript
-   import React from 'react'
+   ```typescript
+   import React from "react";
 
-   interface I{name_of_component}Props {}
+   interface INameOfComponentProps {}
 
-   export const {name_of_component} = (props: I{name_of_component}Props) => {
-     return <div className='name-of-component'></div>
+   export const NameOfComponent = (props: INameOfComponentProps) => {
+     return <div className="name-of-component"></div>;
+   };
+   ```
+
+8. Create a todos.ts file in the src folder
+9. insert the following code into the file
+   ```typescript
+   export interface Todo {
+     id: number;
+     title: string;
+     isCompleted: boolean;
    }
    ```
