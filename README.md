@@ -2,7 +2,7 @@
 
 ## Steps
 
-1. Run `npx create-react-app template=typescript name_of_project_here`
+1. Run `npx create-react-app template typescript name_of_project_here`
 2. Go into the src folder and delete the following files
    - App.css
    - App.test.tsx
