@@ -1,10 +1,17 @@
 import React from "react";
-import { Todo } from "../todos";
+import { ITodo } from "../todos";
+import { Todo } from "./Todo";
 
 interface ITodoList {
-  todos: Todo[];
+  todos: ITodo[];
 }
 
 export const TodoList = (props: ITodoList) => {
-  return <div className="todo-list"></div>;
+  return (
+    <div className="todo-list">
+      {props.todos.map((todo) => (
+        <Todo todo={todo} />
+      ))}
+    </div>
+  );
 };

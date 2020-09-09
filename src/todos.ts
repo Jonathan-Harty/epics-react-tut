@@ -1,10 +1,10 @@
-export interface Todo {
+export interface ITodo {
   id: number;
   title: string;
   isCompleted: boolean;
 };
 
-export let todos: Todo[] = [
+export let todos: ITodo[] = [
   {
     id: 1,
     title: 'todo 1',
