@@ -1,6 +1,7 @@
 import React from "react";
 import { ITodo } from "../todos";
 import { Todo } from "./Todo";
+import styles from "../styles/TodoList.module.css";
 
 interface ITodoList {
   todos: ITodo[];
@@ -8,10 +9,12 @@ interface ITodoList {
 
 export const TodoList = (props: ITodoList) => {
   return (
-    <div className="todo-list">
+    <ul className={styles.todo_list}>
       {props.todos.map((todo) => (
-        <Todo todo={todo} />
+        <li>
+          <Todo todo={todo} />
+        </li>
       ))}
-    </div>
+    </ul>
   );
 };
