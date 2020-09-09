@@ -104,3 +104,4 @@
 12. Map through the todos
 13. Add title and checkbox to Todo
 14. Center list
+15. Add delete button
