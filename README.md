@@ -60,7 +60,7 @@
    ```
 
 8. Create a todos.ts file in the src folder
-9. insert the following code into the file
+9. Insert the following code into the file
    ```typescript
    export interface Todo {
      id: number;
@@ -68,3 +68,34 @@
      isCompleted: boolean;
    }
    ```
+10. Create a list of todos
+
+    ```typescript
+    export let todos: Todo[] = [
+      {
+        id: 1,
+        title: "todo 1",
+        isCompleted: true,
+      },
+      {
+        id: 2,
+        title: "todo 2",
+        isCompleted: true,
+      },
+      {
+        id: 3,
+        title: "todo 3",
+        isCompleted: false,
+      },
+      {
+        id: 4,
+        title: "todo 4",
+        isCompleted: true,
+      },
+      {
+        id: 5,
+        title: "todo 5",
+        isCompleted: false,
+      },
+    ];
+    ```
