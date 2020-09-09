@@ -5,6 +5,7 @@ import styles from "../styles/TodoList.module.css";
 
 interface ITodoList {
   todos: ITodo[];
+  updateTodos(todoId: number, action: string): void;
 }
 
 export const TodoList = (props: ITodoList) => {
