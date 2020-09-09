@@ -105,3 +105,4 @@
 13. Add title and checkbox to Todo
 14. Center list
 15. Add delete button
+16. Use state for the Todo list
