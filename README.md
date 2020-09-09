@@ -101,3 +101,5 @@
     ```
 
 11. Add TodoList to App.tsx and pass it the todos
+12. Map through the todos
+13. Add title and checkbox to Todo
