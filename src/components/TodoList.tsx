@@ -13,7 +13,7 @@ export const TodoList = (props: ITodoList) => {
     <ul className={styles.todo_list}>
       {props.todos.map((todo) => (
         <li>
-          <Todo key={todo.id} todo={todo} />
+          <Todo key={todo.id} todo={todo} updateTodos={props.updateTodos} />
         </li>
       ))}
     </ul>
